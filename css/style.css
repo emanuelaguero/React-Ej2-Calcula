@@ -1,0 +1,106 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-image: url(/img/calculadora.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    color:#fff
+}
+h2{
+    color: black;
+    border-bottom: 2px solid;
+}
+#diseño{
+    margin-top: 30px;
+    color: #272525;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important
+}
+.container{
+    
+    min-width: 400px;
+    min-height: 400px;
+    background-color:bisque;
+    padding: 2rem 2rem 0.1rem 2rem;
+    box-shadow: 2px 1px 15px 5px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 2px 1px 15px 5px rgba(0,0,0,0.24);
+    -moz-box-shadow: 2px 1px 15px 5px rgba(0,0,0,0.24);
+}
+
+.form-input{
+    display:flex;
+    flex-direction: column;
+   justify-content: space-between;
+}
+.form-control{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.form-control label{
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+    color:#272525
+}
+.form-control input{
+    padding: 0.8rem 0.5rem;
+    font-weight: 600;
+}
+
+
+
+.action-control{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    
+ 
+}
+
+button{
+    text-transform: uppercase;
+    padding: 2px ;
+    margin: 2px;
+    background-color: #6859a4;
+    border:  none;
+    color:#fff;
+    opacity: 0.9;
+    flex:1;
+   
+    
+}
+button:hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color: #281df2;
+}
+#limpiar{
+    background-color: #ff0000;
+}
+#limpiar:hover{
+    background-color: #bf6363;
+}
+
+#box-resultado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   background: #ffffff;
+   height: 45px;
+   width: auto;
+   color: black;
+   border: 1px solid black;
+   font-weight: 600;
+}
+
